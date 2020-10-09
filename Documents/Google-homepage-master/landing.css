@@ -1,0 +1,125 @@
+
+@media (max-width:900PX){
+body {
+    padding-left: 10px;
+}
+}
+ #wa {margin-top: 6px;
+   text-align:center;
+} 
+#email {
+    width:280px;
+}
+#submit {
+    width: 140px;
+    margin-top: 7px;
+    background-color:#f1c40f;
+    text-align: center;
+    height: 20px;
+    border: yellow;
+}
+button {
+    margin-bottom: 9px;
+    width: 100px;
+    margin-top: 7px;
+    background-color:#f1c40f;
+    text-align: center;
+    height: 50px;
+    border: yellow;
+}
+
+  li {
+    display: flex;
+     
+}
+#img-lit {
+    height: 100px;
+    margin-right: 10px; }
+
+.topnav {
+    display: flex;
+    width: 3px; 
+}
+footer{
+    display: flex;
+}
+
+header {
+    display: flex;
+}
+#nav-bar {
+  position:fixed;
+}
+#nav-header {
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 450px;
+    width: 20px;
+
+}
+img {
+    height: 100px;
+    width:100px;
+    border-radius: 2rem;
+}
+.material{
+    margin-right: 150px;
+
+}
+ .material, .quality,#shipping {
+    display: flex;
+    justify-content:center;
+}
+
+ p {margin-top: -20px;
+}
+#t,#s, #u {
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+#video {
+    height: 400px;
+    width: 600px;
+    margin-left: 165px;
+}
+.box {
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left:150px; */
+
+}
+@media (max-width: 660px){
+    header img{
+      max-width: 200px;
+      margin: auto;
+    
+  }
+.tenor,.bass,.valve{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: calc(100% / 3);
+   margin: 10px;
+   border: 1px solid #000;
+}
+ ul {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 3px;  
+ }
+ footer {
+     text-align: end;
+     display: flex;
+
+ }
+  #header{
+    display: inline;
+    position:fixed;
+  }
+}
