@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="document.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <main id="main-doc">
+            <nav id="navbar">
+ <header>  JS Documentation</header>
+<a class="nav-link" href="#Introduction">Introduction</a>
+<a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+<a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+<a class="nav-link" href="#Hello_world">Hello world</a>
+<a class="nav-link" href="#Variables">Variables</a>
+<a class="nav-link" href="#Declaring_variables">Declaring variables</a>>
+</nav>
+
+<section id="Introduction" class="main-section">
+    <header>Introduction</header>
+    <div>
+        <p>JavaScript is a cross-platform, </p>
+            <ul>
+                <li>object-oriented </li>
+                <li>scripting language.</li> 
+    <li>It is a small and </li>
+    <li>lightweight language. Inside</li> 
+</ul>
+   <div> <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code></div>
+     <p>host environment (for example, a web browser),
+     JavaScript can be connected to the objects </p></div>
+
+<p>JavaScript contains a standard library of objects, such 
+as Array, Date, and Math, and a core set of language elements 
+such as operators, control structures, and statements.</p>
+</section>
+<section id="What_you_should_already_know" class="main-section">
+    <header>What you should already know</header>
+   <p> Client-side JavaScript extends the core language by 
+    supplying objects to control a browser and its Document 
+    Object Model (DOM). For example, client-side extensions</p>
+   <p> allow an application to place <ul>
+       <li>elements on an HTML form </li>
+       <li>land respond to
+     user events</li>
+     <li> such as mouse clicks,</li> 
+     <li>form input, and page navigation.</li>
+    </ul>
+     <div><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+     define</code>
+    </div></p>
+</section>
+<section id="JavaScript_and_Java" class="main-section">
+    <header>JavaScript and Java</header>
+    <p>Server-side JavaScript extends the core language 
+    by supplying objects relevant to running JavaScript on a 
+    server. For example, server-side extensions allow an application to </p>
+    <p>communicate with a database,
+        <div><code>let var =42</code> </div>
+            provide continuity of information from one invocation to 
+    another of the application, or perform file manipulations on a</p></section>
+    <section id="Hello_world" class="main-section">
+        <header>Hello world</header>
+        <p>JavaScript is a very free-form language compared to Java. 
+        You do not have to declare all variables, classes, and methods.</p>
+         <p>You do not have to be concerned with whether methods are public,
+          private, or protected, and you do not have to implement interfaces. Variables, 
+        parameters, and function return types are not explicitly typed
+        <div>
+    <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+        CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+        }</code>
+    </div></p>
+    </section>
+    <section id="Variables" class="main-section">
+        <header >Variables</header>
+<p>To get started with writing JavaScript, open the 
+Scratchpad and write your first "Hello world" JavaScript code:</p>
+<div><code>function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");</code></div>
+    </section>
+    <section id="Declaring_variables" class="main-section">
+        <header>Declaring variables</header>
+         <p>before ECMAScript 2015 does not have block statement 
+        scope; rather, a variable declared within a block is local to 
+        the function (or global scope) that the block resides within. 
+        For example the following code will log 5,<div><code>let waliyy="fatimah"</code></div> because the scope
+         of x is the function (or global context) within which x is declared, 
+        not the block, which in this case is an if statement</p>
+    </section>
+
+</body>
+</html>
